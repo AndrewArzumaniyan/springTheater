@@ -7,7 +7,6 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-import ru.theater_booking.springTheater.model.json.PlacesJson;
 import ru.theater_booking.springTheater.model.type.PlaceType;
 import ru.theater_booking.springTheater.model.view.PlaceView;
 import ru.theater_booking.springTheater.repository.PlaceViewRepository;
