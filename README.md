@@ -10,20 +10,18 @@
 
 ## Доступные запросы:
 
-### BeginPlaceController
-
 #### `/api/v1/begin-place/{beginPlaceId}` (GET)
 Возвращает информацию о месте начала спектакля по его идентификатору `beginPlaceId`.
 
 #### `/api/v1/begin-place/{beginPlaceId}` (PUT)
 Обновляет статус места начала спектакля по его идентификатору `beginPlaceId`.
 
-### PlaceViewController
+
 
 #### `/api/v1/place/all/begin/{begin_id_param}` (GET)
 Возвращает список мест (PlaceView) для заданного идентификатора начала спектакля `begin_id_param`.
 
-### PlayViewController
+
 
 #### `/api/v1/play/all` (GET)
 Возвращает список всех спектаклей (PlayView).
@@ -34,7 +32,7 @@
 #### `/api/v1/play/all/theater/{theatreId}` (GET)
 Возвращает список спектаклей (PlayView) для заданного идентификатора театра `theatreId`.
 
-### TheaterController
+
 
 #### `/api/v1/theater/all` (GET)
 Возвращает список всех театров.
